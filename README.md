@@ -6,12 +6,17 @@ Linux Terminal
 $ sudo apt install python3.8
 
 Once Python is installed, use CMD (Windows) or Terminal (Linux) to install TensorFlow and MatPlotLib:
+
 Windows CMD:
+
 :> pip install tensorflow
+
 :> pip install matplotlib
 
-Linux Terminal
+Linux Terminal:
+
 $ pip install tensorflow
+
 $ pip install matplotlib
 
 Now the library files for Python, cuDNN and CUDA GPU Toolkit are installed, extract the folder from the Zip. 
