@@ -1,5 +1,5 @@
 # ScalableCNN
-CNN training that can run on Cluster, Single machine or Multi-GPU system such as DGX
+CNN written in Python using TensorFlow, for training Fashion MNIST (can be configured to run other datasets). Can run on Cluster, Single machine or Multi-GPU system such as DGX.
 
 To run the code, download and install Python 3.8 or above. This can be found at https://www.python.org/downloads/ and installed on Windows or for Linux:
 Linux Terminal
