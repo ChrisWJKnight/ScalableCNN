@@ -51,14 +51,14 @@ def model_build(img_height, img_width, colour_chanels, hl1, hl2, hl3, hl4, hl5):
 
 time_start = tf.timestamp() #create timestamp to record start of program run
 #HyperParameters
-batch_size = 200 #number of images to be processed at one time
+batch_size = 1000 #number of images to be processed at one time
 num_classes = 10 #number of classes in dataset
 num_epochs = 200 #number of epochs CNN will perform
-hl1 = 800 #Neurons per hidden layer
-hl2 = 800
-hl3 = 800
-hl4 = 800
-hl5 = 800
+hl1 = 200 #Neurons per hidden layer
+hl2 = 200
+hl3 = 200
+hl4 = 200
+hl5 = 200
 img_height = 28 #image dimensions
 img_width = 28
 colour_chanels = 1 #colour channels
